@@ -21,6 +21,7 @@ function increaseRankBy(n){
   for (let i = 0; i < lis.length; i++){
      for (let x = 0; i < lis[i].children.length; x++){
        debugger
+       lis[i].getElementsByTagName('li')[x].innerHTML = parseInt(lis[i].getElementsByTagName('li')[x].innerHTML) + (n)
      }
   }
 
