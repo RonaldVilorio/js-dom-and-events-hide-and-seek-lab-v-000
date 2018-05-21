@@ -19,4 +19,5 @@ function increaseRankBy(n){
     // debugger
     lis[i].getElementsByTagName('li')[i].innerHTML = parseInt(lis[i].getElementsByTagName('li')[i].innerHTML) + (n)
   }
+  return lis
 }
